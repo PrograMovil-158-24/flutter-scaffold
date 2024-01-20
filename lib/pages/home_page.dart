@@ -32,6 +32,13 @@ class HomePage extends StatelessWidget {
                   Icon(Icons.favorite),
                 ],
               )
-            ]));
+            ]),
+            floatingActionButton: FloatingActionButton(
+              onPressed: (){},
+              child: const Icon(Icons.add),
+              backgroundColor: Colors.deepOrange,
+              foregroundColor: Colors.white,
+            )
+            );
   }
 }
